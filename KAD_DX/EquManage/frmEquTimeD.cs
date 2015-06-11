@@ -314,167 +314,225 @@
 
         private void InitializeComponent()
         {
-            this.components = new Container();
-            ComponentResourceManager manager = new ComponentResourceManager(typeof(frmEquTimeD));
-            this.teStart1 = new RepositoryItemTimeEdit();
-            this.teEnd1 = new RepositoryItemTimeEdit();
-            this.teStart2 = new RepositoryItemTimeEdit();
-            this.teEnd2 = new RepositoryItemTimeEdit();
-            this.teStart3 = new RepositoryItemTimeEdit();
-            this.teEnd3 = new RepositoryItemTimeEdit();
-            this.teStart4 = new RepositoryItemTimeEdit();
-            this.teEnd4 = new RepositoryItemTimeEdit();
-            this.chkMon = new RepositoryItemCheckEdit();
-            this.chkTues = new RepositoryItemCheckEdit();
-            this.chkWed = new RepositoryItemCheckEdit();
-            this.chkThurs = new RepositoryItemCheckEdit();
-            this.chkFri = new RepositoryItemCheckEdit();
-            this.chkSat = new RepositoryItemCheckEdit();
-            this.chkSun = new RepositoryItemCheckEdit();
-            this.imageCollection2 = new ImageCollection(this.components);
-            this.panelControl1 = new PanelControl();
-            this.btnExcelOut = new SimpleButton();
-            this.btnSpeicalTime = new SimpleButton();
-            this.btnSelAll = new SimpleButton();
-            this.btnDown = new SimpleButton();
-            this.btnRead = new SimpleButton();
-            this.btnExit = new SimpleButton();
-            this.btnDel = new SimpleButton();
-            this.btnAdd = new SimpleButton();
-            this.GridControl1 = new GridControl();
-            this.dgvUInfo = new CardView();
-            this.colID = new GridColumn();
-            this.colStart1 = new GridColumn();
-            this.repositoryItemTimeEdit1 = new RepositoryItemTimeEdit();
-            this.colEnd1 = new GridColumn();
-            this.txtEnd1 = new RepositoryItemTextEdit();
-            this.colStart2 = new GridColumn();
-            this.txtStart2 = new RepositoryItemTextEdit();
-            this.colEnd2 = new GridColumn();
-            this.txtEnd2 = new RepositoryItemTextEdit();
-            this.colStart3 = new GridColumn();
-            this.txtStart3 = new RepositoryItemTextEdit();
-            this.colEnd3 = new GridColumn();
-            this.txtEnd3 = new RepositoryItemTextEdit();
-            this.colStart4 = new GridColumn();
-            this.txtStart4 = new RepositoryItemTextEdit();
-            this.colEnd4 = new GridColumn();
-            this.txtEnd4 = new RepositoryItemTextEdit();
-            this.colMon = new GridColumn();
-            this.colTues = new GridColumn();
-            this.colWed = new GridColumn();
-            this.colThurs = new GridColumn();
-            this.colFri = new GridColumn();
-            this.colSat = new GridColumn();
-            this.colSun = new GridColumn();
-            this.txtStart1 = new RepositoryItemTextEdit();
-            this.panelControl2 = new PanelControl();
-            this.imgList = new ImageListBoxControl();
-            this.imageCollection1 = new ImageCollection(this.components);
-            this.panelControl3 = new PanelControl();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEquTimeD));
+            this.teStart1 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.teEnd1 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.teStart2 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.teEnd2 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.teStart3 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.teEnd3 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.teStart4 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.teEnd4 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.chkMon = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.chkTues = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.chkWed = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.chkThurs = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.chkFri = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.chkSat = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.chkSun = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.imageCollection2 = new DevExpress.Utils.ImageCollection(this.components);
+            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.btnExcelOut = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSpeicalTime = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSelAll = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDown = new DevExpress.XtraEditors.SimpleButton();
+            this.btnRead = new DevExpress.XtraEditors.SimpleButton();
+            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
+            this.GridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.dgvUInfo = new DevExpress.XtraGrid.Views.Card.CardView();
+            this.colID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colStart1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemTimeEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemTimeEdit();
+            this.colEnd1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtEnd1 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colStart2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtStart2 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colEnd2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtEnd2 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colStart3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtStart3 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colEnd3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtEnd3 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colStart4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtStart4 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colEnd4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtEnd4 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.colMon = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTues = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colWed = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colThurs = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colFri = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSat = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSun = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtStart1 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.imgList = new DevExpress.XtraEditors.ImageListBoxControl();
+            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
+            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.timeReceive = new System.Windows.Forms.Timer(this.components);
-            this.panelControl4 = new PanelControl();
-            this.GridControl2 = new GridControl();
-            this.dgvExecute = new GridView();
-            this.colTime = new GridColumn();
-            this.colCommand = new GridColumn();
-            this.colTarget = new GridColumn();
-            this.colResult = new GridColumn();
-            this.teStart1.BeginInit();
-            this.teEnd1.BeginInit();
-            this.teStart2.BeginInit();
-            this.teEnd2.BeginInit();
-            this.teStart3.BeginInit();
-            this.teEnd3.BeginInit();
-            this.teStart4.BeginInit();
-            this.teEnd4.BeginInit();
-            this.chkMon.BeginInit();
-            this.chkTues.BeginInit();
-            this.chkWed.BeginInit();
-            this.chkThurs.BeginInit();
-            this.chkFri.BeginInit();
-            this.chkSat.BeginInit();
-            this.chkSun.BeginInit();
-            this.imageCollection2.BeginInit();
-            this.panelControl1.BeginInit();
+            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.GridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.dgvExecute = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCommand = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTarget = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colResult = new DevExpress.XtraGrid.Columns.GridColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.teStart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teStart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teStart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teStart4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkMon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkTues)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkWed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkThurs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkFri)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSun)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            this.GridControl1.BeginInit();
-            this.dgvUInfo.BeginInit();
-            this.repositoryItemTimeEdit1.BeginInit();
-            this.txtEnd1.BeginInit();
-            this.txtStart2.BeginInit();
-            this.txtEnd2.BeginInit();
-            this.txtStart3.BeginInit();
-            this.txtEnd3.BeginInit();
-            this.txtStart4.BeginInit();
-            this.txtEnd4.BeginInit();
-            this.txtStart1.BeginInit();
-            this.panelControl2.BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUInfo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTimeEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
-            ((ISupportInitialize) this.imgList).BeginInit();
-            this.imageCollection1.BeginInit();
-            this.panelControl3.BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
-            this.panelControl4.BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
-            this.GridControl2.BeginInit();
-            this.dgvExecute.BeginInit();
-            base.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvExecute)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // teStart1
+            // 
             this.teStart1.AutoHeight = false;
-            this.teStart1.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teStart1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teStart1.Name = "teStart1";
+            // 
+            // teEnd1
+            // 
             this.teEnd1.AutoHeight = false;
-            this.teEnd1.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teEnd1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teEnd1.Name = "teEnd1";
+            // 
+            // teStart2
+            // 
             this.teStart2.AutoHeight = false;
-            this.teStart2.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teStart2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teStart2.Name = "teStart2";
+            // 
+            // teEnd2
+            // 
             this.teEnd2.AutoHeight = false;
-            this.teEnd2.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teEnd2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teEnd2.Name = "teEnd2";
+            // 
+            // teStart3
+            // 
             this.teStart3.AutoHeight = false;
-            this.teStart3.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teStart3.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teStart3.Name = "teStart3";
+            // 
+            // teEnd3
+            // 
             this.teEnd3.AutoHeight = false;
-            this.teEnd3.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teEnd3.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teEnd3.Name = "teEnd3";
+            // 
+            // teStart4
+            // 
             this.teStart4.AutoHeight = false;
-            this.teStart4.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teStart4.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teStart4.Name = "teStart4";
+            // 
+            // teEnd4
+            // 
             this.teEnd4.AutoHeight = false;
-            this.teEnd4.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.teEnd4.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.teEnd4.Name = "teEnd4";
+            // 
+            // chkMon
+            // 
             this.chkMon.AutoHeight = false;
             this.chkMon.Name = "chkMon";
             this.chkMon.ValueChecked = "Y";
             this.chkMon.ValueUnchecked = "N";
+            // 
+            // chkTues
+            // 
             this.chkTues.AutoHeight = false;
             this.chkTues.Name = "chkTues";
             this.chkTues.ValueChecked = "Y";
             this.chkTues.ValueUnchecked = "N";
+            // 
+            // chkWed
+            // 
             this.chkWed.AutoHeight = false;
             this.chkWed.Name = "chkWed";
             this.chkWed.ValueChecked = "Y";
             this.chkWed.ValueUnchecked = "N";
+            // 
+            // chkThurs
+            // 
             this.chkThurs.AutoHeight = false;
             this.chkThurs.Name = "chkThurs";
             this.chkThurs.ValueChecked = "Y";
             this.chkThurs.ValueUnchecked = "N";
+            // 
+            // chkFri
+            // 
             this.chkFri.AutoHeight = false;
             this.chkFri.Name = "chkFri";
             this.chkFri.ValueChecked = "Y";
             this.chkFri.ValueUnchecked = "N";
+            // 
+            // chkSat
+            // 
             this.chkSat.AutoHeight = false;
             this.chkSat.Name = "chkSat";
             this.chkSat.ValueChecked = "Y";
             this.chkSat.ValueUnchecked = "N";
+            // 
+            // chkSun
+            // 
             this.chkSun.AutoHeight = false;
             this.chkSun.Name = "chkSun";
             this.chkSun.ValueChecked = "Y";
             this.chkSun.ValueUnchecked = "N";
-            this.imageCollection2.ImageStream = (ImageCollectionStreamer) manager.GetObject("imageCollection2.ImageStream");
-            this.panelControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
-            this.panelControl1.BorderStyle = BorderStyles.NoBorder;
+            // 
+            // imageCollection2
+            // 
+            this.imageCollection2.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection2.ImageStream")));
+            // 
+            // panelControl1
+            // 
+            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl1.Controls.Add(this.btnExcelOut);
             this.panelControl1.Controls.Add(this.btnSpeicalTime);
             this.panelControl1.Controls.Add(this.btnSelAll);
@@ -483,324 +541,498 @@
             this.panelControl1.Controls.Add(this.btnExit);
             this.panelControl1.Controls.Add(this.btnDel);
             this.panelControl1.Controls.Add(this.btnAdd);
-            this.panelControl1.Dock = DockStyle.Top;
-            this.panelControl1.Location = new Point(0, 0);
+            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new Size(890, 50);
+            this.panelControl1.Size = new System.Drawing.Size(890, 50);
             this.panelControl1.TabIndex = 7;
+            // 
+            // btnExcelOut
+            // 
             this.btnExcelOut.ImageIndex = 0;
             this.btnExcelOut.ImageList = this.imageCollection2;
-            this.btnExcelOut.Location = new Point(0x298, 12);
+            this.btnExcelOut.Location = new System.Drawing.Point(664, 12);
             this.btnExcelOut.Name = "btnExcelOut";
-            this.btnExcelOut.Size = new Size(0x6d, 0x1f);
-            this.btnExcelOut.TabIndex = 0x16;
+            this.btnExcelOut.Size = new System.Drawing.Size(109, 31);
+            this.btnExcelOut.TabIndex = 22;
             this.btnExcelOut.Text = "导出EXCEL";
             this.btnExcelOut.Visible = false;
-            this.btnExcelOut.Click += new EventHandler(this.btnExcelOut_Click);
+            this.btnExcelOut.Click += new System.EventHandler(this.btnExcelOut_Click);
+            // 
+            // btnSpeicalTime
+            // 
             this.btnSpeicalTime.ImageIndex = 5;
             this.btnSpeicalTime.ImageList = this.imageCollection2;
-            this.btnSpeicalTime.Location = new Point(0x31d, 12);
+            this.btnSpeicalTime.Location = new System.Drawing.Point(797, 12);
             this.btnSpeicalTime.Name = "btnSpeicalTime";
-            this.btnSpeicalTime.Size = new Size(0x51, 0x1f);
+            this.btnSpeicalTime.Size = new System.Drawing.Size(81, 31);
             this.btnSpeicalTime.TabIndex = 10;
             this.btnSpeicalTime.Text = "特殊时段";
             this.btnSpeicalTime.Visible = false;
-            this.btnSpeicalTime.Click += new EventHandler(this.btnSpeicalTime_Click);
+            this.btnSpeicalTime.Click += new System.EventHandler(this.btnSpeicalTime_Click);
+            // 
+            // btnSelAll
+            // 
             this.btnSelAll.ImageIndex = 3;
             this.btnSelAll.ImageList = this.imageCollection2;
-            this.btnSelAll.Location = new Point(0x160, 12);
+            this.btnSelAll.Location = new System.Drawing.Point(352, 12);
             this.btnSelAll.Name = "btnSelAll";
-            this.btnSelAll.Size = new Size(0x4b, 0x1f);
+            this.btnSelAll.Size = new System.Drawing.Size(75, 31);
             this.btnSelAll.TabIndex = 9;
             this.btnSelAll.Text = "全  选";
-            this.btnSelAll.Click += new EventHandler(this.btnSelAll_Click);
+            this.btnSelAll.Click += new System.EventHandler(this.btnSelAll_Click);
+            // 
+            // btnDown
+            // 
             this.btnDown.ImageIndex = 4;
             this.btnDown.ImageList = this.imageCollection2;
-            this.btnDown.Location = new Point(250, 12);
+            this.btnDown.Location = new System.Drawing.Point(250, 12);
             this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new Size(0x4b, 0x1f);
+            this.btnDown.Size = new System.Drawing.Size(75, 31);
             this.btnDown.TabIndex = 8;
             this.btnDown.Text = "下载时段";
-            this.btnDown.Click += new EventHandler(this.btnDown_Click);
+            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // btnRead
+            // 
             this.btnRead.ImageIndex = 5;
             this.btnRead.ImageList = this.imageCollection2;
-            this.btnRead.Location = new Point(0x1c6, 12);
+            this.btnRead.Location = new System.Drawing.Point(454, 12);
             this.btnRead.Name = "btnRead";
-            this.btnRead.Size = new Size(0x4b, 0x1f);
+            this.btnRead.Size = new System.Drawing.Size(75, 31);
             this.btnRead.TabIndex = 7;
             this.btnRead.Text = "读取时段";
-            this.btnRead.Click += new EventHandler(this.btnRead_Click);
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
+            // 
+            // btnExit
+            // 
             this.btnExit.ImageIndex = 2;
             this.btnExit.ImageList = this.imageCollection2;
-            this.btnExit.Location = new Point(0x22c, 12);
+            this.btnExit.Location = new System.Drawing.Point(556, 12);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new Size(0x4b, 0x1f);
+            this.btnExit.Size = new System.Drawing.Size(75, 31);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "退  出";
-            this.btnExit.Click += new EventHandler(this.btnExit_Click);
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnDel
+            // 
             this.btnDel.ImageIndex = 1;
             this.btnDel.ImageList = this.imageCollection2;
-            this.btnDel.Location = new Point(0x94, 12);
+            this.btnDel.Location = new System.Drawing.Point(148, 12);
             this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new Size(0x4b, 0x1f);
+            this.btnDel.Size = new System.Drawing.Size(75, 31);
             this.btnDel.TabIndex = 4;
             this.btnDel.Text = "删   除";
-            this.btnDel.Click += new EventHandler(this.btnDel_Click);
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // btnAdd
+            // 
             this.btnAdd.ImageIndex = 1;
             this.btnAdd.ImageList = this.imageCollection2;
-            this.btnAdd.Location = new Point(13, 12);
+            this.btnAdd.Location = new System.Drawing.Point(13, 12);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new Size(0x6c, 0x1f);
+            this.btnAdd.Size = new System.Drawing.Size(108, 31);
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "添  加/修  改";
-            this.btnAdd.Click += new EventHandler(this.btnAdd_Click);
-            this.GridControl1.Dock = DockStyle.Fill;
-            this.GridControl1.EmbeddedNavigator.Appearance.Font = new Font("Verdana", 12f, FontStyle.Regular, GraphicsUnit.Point, 0);
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // GridControl1
+            // 
+            this.GridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.GridControl1.EmbeddedNavigator.Appearance.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GridControl1.EmbeddedNavigator.Appearance.Options.UseFont = true;
             this.GridControl1.EmbeddedNavigator.Name = "";
-            this.GridControl1.Location = new Point(2, 2);
+            this.GridControl1.Location = new System.Drawing.Point(2, 2);
             this.GridControl1.MainView = this.dgvUInfo;
             this.GridControl1.Name = "GridControl1";
-            this.GridControl1.RepositoryItems.AddRange(new RepositoryItem[] { this.txtStart1, this.txtEnd1, this.txtStart2, this.txtEnd2, this.txtStart3, this.txtEnd3, this.txtStart4, this.txtEnd4, this.repositoryItemTimeEdit1 });
-            this.GridControl1.Size = new Size(0x376, 0x159);
+            this.GridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.txtStart1,
+            this.txtEnd1,
+            this.txtStart2,
+            this.txtEnd2,
+            this.txtStart3,
+            this.txtEnd3,
+            this.txtStart4,
+            this.txtEnd4,
+            this.repositoryItemTimeEdit1});
+            this.GridControl1.Size = new System.Drawing.Size(886, 345);
             this.GridControl1.TabIndex = 8;
-            this.GridControl1.ViewCollection.AddRange(new BaseView[] { this.dgvUInfo });
+            this.GridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.dgvUInfo});
+            // 
+            // dgvUInfo
+            // 
             this.dgvUInfo.CardCaptionFormat = "记录N {0}";
-            this.dgvUInfo.CardWidth = 0xc3;
-            this.dgvUInfo.Columns.AddRange(new GridColumn[] { this.colID, this.colStart1, this.colEnd1, this.colStart2, this.colEnd2, this.colStart3, this.colEnd3, this.colStart4, this.colEnd4, this.colMon, this.colTues, this.colWed, this.colThurs, this.colFri, this.colSat, this.colSun });
+            this.dgvUInfo.CardWidth = 195;
+            this.dgvUInfo.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colID,
+            this.colStart1,
+            this.colEnd1,
+            this.colStart2,
+            this.colEnd2,
+            this.colStart3,
+            this.colEnd3,
+            this.colStart4,
+            this.colEnd4,
+            this.colMon,
+            this.colTues,
+            this.colWed,
+            this.colThurs,
+            this.colFri,
+            this.colSat,
+            this.colSun});
             this.dgvUInfo.FocusedCardTopFieldIndex = 0;
             this.dgvUInfo.GridControl = this.GridControl1;
             this.dgvUInfo.Name = "dgvUInfo";
             this.dgvUInfo.OptionsBehavior.Editable = false;
             this.dgvUInfo.OptionsSelection.MultiSelect = true;
-            this.dgvUInfo.FocusedRowChanged += new FocusedRowChangedEventHandler(this.dgvUInfo_FocusedRowChanged);
-            this.dgvUInfo.CellValueChanged += new CellValueChangedEventHandler(this.dgvUInfo_CellValueChanged);
-            this.colID.AppearanceCell.ForeColor = Color.Fuchsia;
+            this.dgvUInfo.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvUInfo_FocusedRowChanged);
+            this.dgvUInfo.CellValueChanged += new DevExpress.XtraGrid.Views.Base.CellValueChangedEventHandler(this.dgvUInfo_CellValueChanged);
+            // 
+            // colID
+            // 
+            this.colID.AppearanceCell.ForeColor = System.Drawing.Color.Fuchsia;
             this.colID.AppearanceCell.Options.UseForeColor = true;
             this.colID.AppearanceCell.Options.UseTextOptions = true;
-            this.colID.AppearanceCell.TextOptions.HAlignment = HorzAlignment.Center;
+            this.colID.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colID.Caption = "时段";
             this.colID.Name = "colID";
             this.colID.Visible = true;
             this.colID.VisibleIndex = 0;
+            // 
+            // colStart1
+            // 
             this.colStart1.Caption = "开始1";
             this.colStart1.ColumnEdit = this.repositoryItemTimeEdit1;
             this.colStart1.Name = "colStart1";
             this.colStart1.Visible = true;
             this.colStart1.VisibleIndex = 1;
+            // 
+            // repositoryItemTimeEdit1
+            // 
             this.repositoryItemTimeEdit1.AutoHeight = false;
-            this.repositoryItemTimeEdit1.Buttons.AddRange(new EditorButton[] { new EditorButton() });
+            this.repositoryItemTimeEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
             this.repositoryItemTimeEdit1.DisplayFormat.FormatString = "t";
-            this.repositoryItemTimeEdit1.DisplayFormat.FormatType = FormatType.DateTime;
+            this.repositoryItemTimeEdit1.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.repositoryItemTimeEdit1.EditFormat.FormatString = "t";
-            this.repositoryItemTimeEdit1.EditFormat.FormatType = FormatType.DateTime;
+            this.repositoryItemTimeEdit1.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             this.repositoryItemTimeEdit1.Mask.EditMask = "HH:mm";
             this.repositoryItemTimeEdit1.Name = "repositoryItemTimeEdit1";
+            // 
+            // colEnd1
+            // 
             this.colEnd1.Caption = "结束1";
             this.colEnd1.ColumnEdit = this.txtEnd1;
             this.colEnd1.Name = "colEnd1";
             this.colEnd1.Visible = true;
             this.colEnd1.VisibleIndex = 2;
+            // 
+            // txtEnd1
+            // 
             this.txtEnd1.AutoHeight = false;
             this.txtEnd1.MaxLength = 5;
             this.txtEnd1.Name = "txtEnd1";
+            // 
+            // colStart2
+            // 
             this.colStart2.Caption = "开始2";
             this.colStart2.ColumnEdit = this.txtStart2;
             this.colStart2.Name = "colStart2";
             this.colStart2.Visible = true;
             this.colStart2.VisibleIndex = 3;
+            // 
+            // txtStart2
+            // 
             this.txtStart2.AutoHeight = false;
             this.txtStart2.MaxLength = 5;
             this.txtStart2.Name = "txtStart2";
+            // 
+            // colEnd2
+            // 
             this.colEnd2.Caption = "结束2";
             this.colEnd2.ColumnEdit = this.txtEnd2;
             this.colEnd2.Name = "colEnd2";
             this.colEnd2.Visible = true;
             this.colEnd2.VisibleIndex = 4;
+            // 
+            // txtEnd2
+            // 
             this.txtEnd2.AutoHeight = false;
             this.txtEnd2.MaxLength = 5;
             this.txtEnd2.Name = "txtEnd2";
+            // 
+            // colStart3
+            // 
             this.colStart3.Caption = "开始3";
             this.colStart3.ColumnEdit = this.txtStart3;
             this.colStart3.Name = "colStart3";
             this.colStart3.Visible = true;
             this.colStart3.VisibleIndex = 5;
+            // 
+            // txtStart3
+            // 
             this.txtStart3.AutoHeight = false;
             this.txtStart3.MaxLength = 5;
             this.txtStart3.Name = "txtStart3";
+            // 
+            // colEnd3
+            // 
             this.colEnd3.Caption = "结束3";
             this.colEnd3.ColumnEdit = this.txtEnd3;
             this.colEnd3.Name = "colEnd3";
             this.colEnd3.Visible = true;
             this.colEnd3.VisibleIndex = 6;
+            // 
+            // txtEnd3
+            // 
             this.txtEnd3.AutoHeight = false;
             this.txtEnd3.MaxLength = 5;
             this.txtEnd3.Name = "txtEnd3";
+            // 
+            // colStart4
+            // 
             this.colStart4.Caption = "开始4";
             this.colStart4.ColumnEdit = this.txtStart4;
             this.colStart4.Name = "colStart4";
             this.colStart4.Visible = true;
             this.colStart4.VisibleIndex = 7;
+            // 
+            // txtStart4
+            // 
             this.txtStart4.AutoHeight = false;
             this.txtStart4.MaxLength = 5;
             this.txtStart4.Name = "txtStart4";
+            // 
+            // colEnd4
+            // 
             this.colEnd4.Caption = "结束4";
             this.colEnd4.ColumnEdit = this.txtEnd4;
             this.colEnd4.Name = "colEnd4";
             this.colEnd4.Visible = true;
             this.colEnd4.VisibleIndex = 8;
+            // 
+            // txtEnd4
+            // 
             this.txtEnd4.AutoHeight = false;
             this.txtEnd4.MaxLength = 5;
             this.txtEnd4.Name = "txtEnd4";
+            // 
+            // colMon
+            // 
             this.colMon.Caption = "星期一";
             this.colMon.ColumnEdit = this.chkMon;
             this.colMon.Name = "colMon";
             this.colMon.Visible = true;
             this.colMon.VisibleIndex = 9;
+            // 
+            // colTues
+            // 
             this.colTues.Caption = "星期二";
             this.colTues.ColumnEdit = this.chkTues;
             this.colTues.Name = "colTues";
             this.colTues.Visible = true;
             this.colTues.VisibleIndex = 10;
+            // 
+            // colWed
+            // 
             this.colWed.Caption = "星期三";
             this.colWed.ColumnEdit = this.chkWed;
             this.colWed.Name = "colWed";
             this.colWed.Visible = true;
             this.colWed.VisibleIndex = 11;
+            // 
+            // colThurs
+            // 
             this.colThurs.Caption = "星期四";
             this.colThurs.ColumnEdit = this.chkThurs;
             this.colThurs.Name = "colThurs";
             this.colThurs.Visible = true;
             this.colThurs.VisibleIndex = 12;
+            // 
+            // colFri
+            // 
             this.colFri.Caption = "星期五";
             this.colFri.ColumnEdit = this.chkFri;
             this.colFri.Name = "colFri";
             this.colFri.Visible = true;
             this.colFri.VisibleIndex = 13;
+            // 
+            // colSat
+            // 
             this.colSat.Caption = "星期六";
             this.colSat.ColumnEdit = this.chkSat;
             this.colSat.Name = "colSat";
             this.colSat.Visible = true;
             this.colSat.VisibleIndex = 14;
+            // 
+            // colSun
+            // 
             this.colSun.Caption = "星期日";
             this.colSun.ColumnEdit = this.chkSun;
             this.colSun.Name = "colSun";
             this.colSun.Visible = true;
             this.colSun.VisibleIndex = 15;
+            // 
+            // txtStart1
+            // 
             this.txtStart1.AutoHeight = false;
             this.txtStart1.MaxLength = 5;
             this.txtStart1.Name = "txtStart1";
-            this.panelControl2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
+            // 
+            // panelControl2
+            // 
             this.panelControl2.Controls.Add(this.imgList);
-            this.panelControl2.Dock = DockStyle.Top;
-            this.panelControl2.Location = new Point(0, 50);
+            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl2.Location = new System.Drawing.Point(0, 50);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new Size(890, 0x51);
+            this.panelControl2.Size = new System.Drawing.Size(890, 81);
             this.panelControl2.TabIndex = 9;
-            this.imgList.Dock = DockStyle.Fill;
+            // 
+            // imgList
+            // 
+            this.imgList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.imgList.ImageList = this.imageCollection1;
-            this.imgList.Location = new Point(2, 2);
+            this.imgList.Location = new System.Drawing.Point(2, 2);
             this.imgList.MultiColumn = true;
             this.imgList.Name = "imgList";
-            this.imgList.SelectionMode = SelectionMode.MultiExtended;
-            this.imgList.Size = new Size(0x376, 0x4d);
+            this.imgList.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.imgList.Size = new System.Drawing.Size(886, 77);
             this.imgList.TabIndex = 6;
-            this.imageCollection1.ImageSize = new Size(0x20, 0x20);
-            this.imageCollection1.ImageStream = (ImageCollectionStreamer) manager.GetObject("imageCollection1.ImageStream");
-            this.panelControl3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
+            // 
+            // imageCollection1
+            // 
+            this.imageCollection1.ImageSize = new System.Drawing.Size(32, 32);
+            this.imageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection1.ImageStream")));
+            // 
+            // panelControl3
+            // 
             this.panelControl3.Controls.Add(this.GridControl1);
-            this.panelControl3.Dock = DockStyle.Top;
-            this.panelControl3.Location = new Point(0, 0x83);
+            this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl3.Location = new System.Drawing.Point(0, 131);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new Size(890, 0x15d);
+            this.panelControl3.Size = new System.Drawing.Size(890, 349);
             this.panelControl3.TabIndex = 10;
-            this.timeReceive.Tick += new EventHandler(this.timeReceive_Tick);
-            this.panelControl4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
+            // 
+            // timeReceive
+            // 
+            this.timeReceive.Tick += new System.EventHandler(this.timeReceive_Tick);
+            // 
+            // panelControl4
+            // 
             this.panelControl4.Controls.Add(this.GridControl2);
-            this.panelControl4.Dock = DockStyle.Fill;
-            this.panelControl4.Location = new Point(0, 480);
+            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl4.Location = new System.Drawing.Point(0, 480);
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new Size(890, 140);
+            this.panelControl4.Size = new System.Drawing.Size(890, 140);
             this.panelControl4.TabIndex = 11;
-            this.GridControl2.Dock = DockStyle.Fill;
+            // 
+            // GridControl2
+            // 
+            this.GridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GridControl2.EmbeddedNavigator.Name = "";
-            this.GridControl2.Location = new Point(2, 2);
+            this.GridControl2.Location = new System.Drawing.Point(2, 2);
             this.GridControl2.MainView = this.dgvExecute;
             this.GridControl2.Name = "GridControl2";
-            this.GridControl2.Size = new Size(0x376, 0x88);
+            this.GridControl2.Size = new System.Drawing.Size(886, 136);
             this.GridControl2.TabIndex = 1;
-            this.GridControl2.ViewCollection.AddRange(new BaseView[] { this.dgvExecute });
-            this.dgvExecute.Columns.AddRange(new GridColumn[] { this.colTime, this.colCommand, this.colTarget, this.colResult });
+            this.GridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.dgvExecute});
+            // 
+            // dgvExecute
+            // 
+            this.dgvExecute.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colTime,
+            this.colCommand,
+            this.colTarget,
+            this.colResult});
             this.dgvExecute.GridControl = this.GridControl2;
             this.dgvExecute.Name = "dgvExecute";
+            // 
+            // colTime
+            // 
             this.colTime.Caption = "执行时间";
             this.colTime.Name = "colTime";
             this.colTime.Visible = true;
             this.colTime.VisibleIndex = 0;
+            // 
+            // colCommand
+            // 
             this.colCommand.Caption = "执行命令";
             this.colCommand.Name = "colCommand";
             this.colCommand.Visible = true;
             this.colCommand.VisibleIndex = 1;
+            // 
+            // colTarget
+            // 
             this.colTarget.Caption = " 执行对象";
             this.colTarget.Name = "colTarget";
             this.colTarget.Visible = true;
             this.colTarget.VisibleIndex = 2;
+            // 
+            // colResult
+            // 
             this.colResult.Caption = "执行结果";
             this.colResult.Name = "colResult";
             this.colResult.Visible = true;
             this.colResult.VisibleIndex = 3;
-            base.AutoScaleDimensions = new SizeF(6f, 12f);
-            base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font; 
-            base.ClientSize = new Size(890, 620);
-            base.Controls.Add(this.panelControl4);
-            base.Controls.Add(this.panelControl3);
-            base.Controls.Add(this.panelControl2);
-            base.Controls.Add(this.panelControl1);
-            base.Name = "frmEquTimeD";
-            base.ShowIcon = false;
-            base.StartPosition = FormStartPosition.CenterScreen;
+            // 
+            // frmEquTimeD
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(890, 620);
+            this.Controls.Add(this.panelControl4);
+            this.Controls.Add(this.panelControl3);
+            this.Controls.Add(this.panelControl2);
+            this.Controls.Add(this.panelControl1);
+            this.Name = "frmEquTimeD";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "设置时间段";
-            base.Load += new EventHandler(this.frmEquTimeD_Load);
-            this.teStart1.EndInit();
-            this.teEnd1.EndInit();
-            this.teStart2.EndInit();
-            this.teEnd2.EndInit();
-            this.teStart3.EndInit();
-            this.teEnd3.EndInit();
-            this.teStart4.EndInit();
-            this.teEnd4.EndInit();
-            this.chkMon.EndInit();
-            this.chkTues.EndInit();
-            this.chkWed.EndInit();
-            this.chkThurs.EndInit();
-            this.chkFri.EndInit();
-            this.chkSat.EndInit();
-            this.chkSun.EndInit();
-            this.imageCollection2.EndInit();
-            this.panelControl1.EndInit();
+            this.Load += new System.EventHandler(this.frmEquTimeD_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.teStart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teStart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teStart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teStart4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teEnd4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkMon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkTues)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkWed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkThurs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkFri)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSun)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            this.GridControl1.EndInit();
-            this.dgvUInfo.EndInit();
-            this.repositoryItemTimeEdit1.EndInit();
-            this.txtEnd1.EndInit();
-            this.txtStart2.EndInit();
-            this.txtEnd2.EndInit();
-            this.txtStart3.EndInit();
-            this.txtEnd3.EndInit();
-            this.txtStart4.EndInit();
-            this.txtEnd4.EndInit();
-            this.txtStart1.EndInit();
-            this.panelControl2.EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUInfo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTimeEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEnd4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
-            ((ISupportInitialize) this.imgList).EndInit();
-            this.imageCollection1.EndInit();
-            this.panelControl3.EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
-            this.panelControl4.EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
-            this.GridControl2.EndInit();
-            this.dgvExecute.EndInit();
-            base.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.GridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvExecute)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         private void SaveTimeD(int nTimeName, byte[] bybuff)
