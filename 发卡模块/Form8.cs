@@ -137,7 +137,7 @@
             this.btnlogin.Text = "登   陆";
             this.btnlogin.UseVisualStyleBackColor = true;
             this.btnlogin.Click += new EventHandler(this.btnlogin_Click);
-            this.btnCancel.DialogResult = DialogResult.Cancel;
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Location = new Point(0xa6, 0x6a);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new Size(0x4b, 0x17);

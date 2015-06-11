@@ -239,7 +239,7 @@
             this.cboxDoorNO.Name = "cboxDoorNO";
             this.cboxDoorNO.Tag = "请选择门编号";
             this.cboxDoorNO.TextEditStyle = TextEditStyles.DisableTextEditor;
-            this.panelControl1.AutoSizeMode = AutoSizeMode.GrowOnly;
+            this.panelControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowOnly;
             this.panelControl1.BorderStyle = BorderStyles.NoBorder;
             this.panelControl1.Controls.Add(this.btnTime);
             this.panelControl1.Controls.Add(this.btnRead);

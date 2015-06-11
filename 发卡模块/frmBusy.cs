@@ -32,7 +32,7 @@
             this.BackgroundImage = (Image) resources.GetObject("$this.BackgroundImage");
             this.BackgroundImageLayout = ImageLayout.Stretch;
             base.ClientSize = new Size(0x214, 0x119);
-            base.FormBorderStyle = FormBorderStyle.None;
+            base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             base.Name = "frmBusy";
             base.StartPosition = FormStartPosition.CenterScreen;
             this.Text = "frmBusy";
