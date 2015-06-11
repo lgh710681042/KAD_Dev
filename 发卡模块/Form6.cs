@@ -31,7 +31,7 @@
             base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font; 
             this.BackgroundImage = Resources.门禁管理渐变1;
             base.ClientSize = new Size(0x1ee, 0xef);
-            base.FormBorderStyle = FormBorderStyle.None;
+            base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             base.Name = "Form6";
             base.StartPosition = FormStartPosition.CenterScreen;
             this.Text = "Form6";
